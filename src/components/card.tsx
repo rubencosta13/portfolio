@@ -5,7 +5,7 @@ import { DiNodejsSmall } from 'react-icons/di';
 
 const CardContainer = () => { 
   return (
-    <section className='col-6 d-flex justify-content-center mt-3' data-aos="fade-right">
+    <section className='col-6 d-flex justify-content-center mt-3 align-self-center' data-aos="fade-right">
       <div className="card">
         <img src="https://avatars.githubusercontent.com/u/66113929?v=4" alt="Ruben Costa's profile" className="card-img-top img-thumbnail"/>
         <h1 className='text-center'>Ruben Costa</h1>
@@ -29,7 +29,11 @@ const CardContainer = () => {
           </div>
         </div>
       </div>
+      <div className='d-flex align-items-start mt-3 bg-light text-dark mb-3'>
+        <p>Backend developer with 2 years of self taught experience</p>
+      </div>
     </section>
+    
   );
 };
 
