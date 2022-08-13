@@ -5,6 +5,9 @@ function App() {
   return (
       <div>
         <CardContainer />
+        <div className='d-flex align-items-start container'>
+          <p>Backend developer with 2 years of self taught experience</p>
+        </div>
       </div>
   );
 }
